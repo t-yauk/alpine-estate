@@ -5,7 +5,7 @@ function forward(){
 	if(x == 39){
 		x = 1;
 	}
-	document.getElementById("imageSource").src="../images/sited/"+x+".jpg";
+	document.getElementById("imageSource").src="https://raw.githubusercontent.com/t-yauk/alpine-estate/main/media-library/"+x+".jpg";
 	//document.getElementById("imageNumber").innerHTML = x;
 }
 
@@ -14,7 +14,7 @@ function backward(){
 	if(x == 0){
 		x = 38;
 	}
-	document.getElementById("imageSource").src="../images/sited/"+x+".jpg";
+	document.getElementById("imageSource").src="https://raw.githubusercontent.com/t-yauk/alpine-estate/main/media-library/"+x+".jpg";
 	//document.getElementById("imageNumber").innerHTML = x;
 }
 
@@ -35,7 +35,7 @@ function checkKey(e) {
 		if(x == 0){
 			x = 38;
 		}
-		document.getElementById("imageSource").src="../images/sited/"+x+".jpg";
+		document.getElementById("imageSource").src="https://raw.githubusercontent.com/t-yauk/alpine-estate/main/media-library/"+x+".jpg";
 		//document.getElementById("imageNumber").innerHTML = x;
     }
     else if (e.keyCode == 39) {
@@ -43,7 +43,7 @@ function checkKey(e) {
 		if(x == 39){
 			x = 1;
 		}
-		document.getElementById("imageSource").src="../images/sited/"+x+".jpg";
+		document.getElementById("imageSource").src="https://raw.githubusercontent.com/t-yauk/alpine-estate/main/media-library/"+x+".jpg";
 		//document.getElementById("imageNumber").innerHTML = x;
     }
 
